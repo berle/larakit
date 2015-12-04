@@ -1,5 +1,6 @@
 {
     "name": "berle/larakit",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "description": "My Laravel Toolkit",
