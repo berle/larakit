@@ -1,6 +1,6 @@
 {
     "name": "berle/larakit",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "type": "library",
     "license": "MIT",
     "description": "My Laravel Toolkit",
@@ -19,6 +19,5 @@
         "psr-4": {
             "Berle\\LaraKit\\" : "src"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
