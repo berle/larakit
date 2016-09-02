@@ -28,7 +28,7 @@ abstract class EloquentRepository
             $take = $total = $results->count();
         }
 
-        return new LengthAwarePaginator($results, $total, $take, $page);
+        return new LengthAwarePaginator($results, $total, $take | 1, $page);
     }
 
     public function get(array $cond)
